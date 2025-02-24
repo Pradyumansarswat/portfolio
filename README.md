@@ -2,7 +2,7 @@
 
 Welcome to Pradyuman's portfolio project! This project is built using React and showcases my work, skills, and experience. Follow the instructions below to clone the project and run it locally.
 
-![Portfolio Preview](path_to_your_image)
+![Portfolio Preview](/portfolio.png)
 
 ## 🚀 Quick Start
 
