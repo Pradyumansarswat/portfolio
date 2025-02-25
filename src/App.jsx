@@ -14,8 +14,9 @@ const App = () => {
         <Route path='/experience' element={<Experience/>}/>
       </Routes>
       <Footer/>
-    </BrowserRouter>
       <Analytics />
+    </BrowserRouter>
+      
   );
 }
 
