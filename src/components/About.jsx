@@ -66,7 +66,7 @@ const About = () => {
 
             <ButtonLink
               // url="https://drive.google.com/file/d/19Vh0nx5JF9G_sgawb_dUIFlGSHtjp_dw/view?usp=drive_link"
-              url="/Pradyuman Sarswat Resume.pdf"
+              url="/Resume.pdf"
               text="View Resume →"
               padding={`p-3`}
             />
