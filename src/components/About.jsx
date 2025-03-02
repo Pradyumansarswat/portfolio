@@ -45,6 +45,7 @@ const About = () => {
                 className="text-green-300 hover:text-green-500 duration-300"
                 href="https://www.linkedin.com/in/pradyuman-sarswat/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Full Stack Developer
               </a>
@@ -57,6 +58,7 @@ const About = () => {
                 className="text-purple-300 hover:text-purple-400 duration-300"
                 href="https://x.com/PradyumanCodes"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 X 
               </a>

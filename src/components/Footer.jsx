@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub} from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
@@ -16,6 +16,7 @@ const Footer = () => {
         <div className="text-white flex justify-around sm:w-[250px] w-full">
           <a
             href="mailto:pradyumansarswat2909@gmail.com"
+            rel="noopener noreferrer"
             className="transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1"
             style={{ cursor: "pointer" }}
           >
@@ -24,6 +25,7 @@ const Footer = () => {
           <a
             href="https://x.com/PradyumanCodes"
             target="_blank"
+            rel="noopener noreferrer"
             className="transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1"
             style={{ cursor: "pointer" }}
           >
@@ -32,6 +34,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/pradyuman-sarswat/"
             target="_blank"
+            rel="noopener noreferrer"
             className="transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1"
             style={{ cursor: "pointer" }}
           >
@@ -40,6 +43,7 @@ const Footer = () => {
           <a
             href="https://github.com/Pradyumansarswat"
             target="_blank"
+            rel="noopener noreferrer"
             className="transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1"
             style={{ cursor: "pointer" }}
           >
