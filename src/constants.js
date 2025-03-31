@@ -33,7 +33,7 @@ export const experiences = [
     {
         'company': 'Groot Software Solutions',
         'role': 'Full Stack Web Developer Intern',
-        'duration': 'Jan 2024 - May 2024',
+        'duration': 'Jan 2024 - July 2024',
         'logo': 'https://media.licdn.com/dms/image/v2/C510BAQFlseDKJ1_P4g/company-logo_200_200/company-logo_200_200/0/1631432685337?e=2147483647&v=beta&t=SK1QXN4OXPewDp7RqIifLzMgCtU3UVffhUDwFv02l4Q',
         'points': [
             'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
