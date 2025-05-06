@@ -20,7 +20,7 @@ export const experiences = [
     {
         'company': 'iwebwiser',
         'role': 'Fronted Developer',
-        'duration': 'Sept 2024 - Present',
+        'duration': 'Sept 2024 - Feburary 2025',
         'logo': 'https://superbcompanies.com/_next/image/?url=https%3A%2F%2Fsuperbcompanies.s3.eu-central-1.amazonaws.com%2Fimages%2Fcompanies%2Flogos%2Fe3e06460-ef50-11ee-9c6c-7b647f69e01d.jpg&w=192&q=75',
         'points': [
             'Developed a dynamic company website from scratch using Next.js, enabling easy content management for admins.',
