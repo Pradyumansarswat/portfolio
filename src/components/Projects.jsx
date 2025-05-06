@@ -1,7 +1,8 @@
 import React from "react";
 import vpn from "../assets/vpn.png";
 import copeople from "../assets/copeople.png";
-import game from "../assets/game.png";
+// import game from "../assets/game.png";
+import chitchat from "../assets/chitchat.png";
 import Footer from "./Footer";
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -10,6 +11,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
       <a href="#">
         <img
           className="w-full rounded-t-lg h-auto object-cover"
+          // className="w-full h-72 object-cover rounded-t-lg"
           src={image}
           alt={title}
         />
@@ -80,14 +82,23 @@ export const project = [
     git: "https://github.com/Pradyumansarswat/TaskManager",
     technologies: ["React JS", "Node.js", "Tailwind CSS", "Cloudinary"],
   },
+  // {
+  //   title: "El Lotteria Game",
+  //   description:
+  //     "A small lottery game inspired by the Mexican game El Lotteria, built with JavaScript. Features multiplayer gameplay, smooth animations, and a secure backend. real-time interactions and seamless connectivity for an engaging and immersive gaming experience.",
+  //   image: game,
+  //   git: "https://github.com/Pradyumansarswat/El-Lotteria-Game",
+  //   technologies: ["React JS", "Node.js", "MongoDB", "Express", "Material-UI"],
+  // },
   {
-    title: "El Lotteria Game",
+    title: "Chit Chat App",
     description:
-      "A small lottery game inspired by the Mexican game El Lotteria, built with JavaScript. Features multiplayer gameplay, smooth animations, and a secure backend. real-time interactions and seamless connectivity for an engaging and immersive gaming experience.",
-    image: game,
-    git: "https://github.com/Pradyumansarswat/El-Lotteria-Game",
-    technologies: ["React JS", "Node.js", "MongoDB", "Express", "Material-UI"],
-  },
+      "A full-featured real-time messaging platform with typing indicators, emoji reactions, 1-on-1 and group video calls, screen sharing, and session recording. Includes JWT authentication and a language exchange experience with seamless performance.",
+    image: chitchat, 
+    git: "https://github.com/Pradyumansarswat/Chit-Chat",
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Stream"],
+  }
+  
 ];
 
 export default Projects;
