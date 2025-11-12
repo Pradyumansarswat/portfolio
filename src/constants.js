@@ -20,7 +20,7 @@ export const experiences = [
   {
     company: 'Decent Technologies',
     role: 'Full Stack Developer',
-    duration: 'Dec 2023 - May 2025',
+    duration: 'Dec 2023 - June 2025',
     logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1m63QIQhfalQh8HwyGfFlqVdLZ5iIl-HUUD3HoyiJzKt8bDejSSihqUlvAutPHPPG3Ss&usqp=CAU',
     points: [
       'Developed scalable, high-performance web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).',
